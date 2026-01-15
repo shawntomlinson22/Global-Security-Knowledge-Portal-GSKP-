@@ -1,0 +1,170 @@
+.rolePortal {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #1f2937;
+}
+
+.header {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  margin: 0 0 8px;
+}
+
+.title {
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: #64748b;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(200px, 240px) 1fr;
+  gap: 24px;
+}
+
+.nav {
+  position: sticky;
+  top: 16px;
+  align-self: start;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.navTitle {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.navLink {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.navLink:hover,
+.navLink:focus {
+  background: #eff6ff;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.sectionHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: #f1f5f9;
+  border: none;
+  border-radius: 12px 12px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sectionBody {
+  padding: 16px 20px 20px;
+}
+
+.sectionText {
+  margin: 0 0 12px;
+  color: #334155;
+}
+
+.sectionSubTitle {
+  margin: 16px 0 8px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.externalLinks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.externalLinks li {
+  margin-bottom: 8px;
+}
+
+.externalLinks a {
+  color: #0f172a;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.externalLinks a:hover,
+.externalLinks a:focus {
+  text-decoration: underline;
+}
+
+.externalIcon {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.compact .header {
+  padding: 16px;
+}
+
+.compact .layout {
+  grid-template-columns: 1fr;
+}
+
+.compact .nav {
+  position: static;
+  order: -1;
+}
+
+@media (max-width: 960px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .nav {
+    position: static;
+  }
+}
