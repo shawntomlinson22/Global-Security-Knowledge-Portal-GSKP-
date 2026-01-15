@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "role-portal-client-side-solution",
+    "id": "f5f3b4ef-0c3b-4f2a-82f2-e3c5d0e4d9a6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "features": [
+      {
+        "title": "RolePortal Web Part",
+        "description": "Deploys the RolePortal web part.",
+        "id": "7c1b8c1e-47aa-4a52-a8c6-043c9f232b5e",
+        "version": "1.0.0.0",
+        "componentIds": [
+          "b1a31d59-2b9b-4cd4-a1f6-6c4f1ae35621"
+        ]
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/role-portal.sppkg"
+  }
+}

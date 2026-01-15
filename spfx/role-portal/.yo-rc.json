@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.18.2",
+    "environment": "spo",
+    "solutionName": "role-portal",
+    "solutionShortDescription": "SPFx RolePortal web part for SharePoint Online.",
+    "skipFeatureDeployment": false,
+    "packageManager": "npm",
+    "componentType": "webpart",
+    "libraryName": "role-portal",
+    "libraryId": "f5f3b4ef-0c3b-4f2a-82f2-e3c5d0e4d9a6",
+    "componentName": "RolePortal",
+    "componentId": "b1a31d59-2b9b-4cd4-a1f6-6c4f1ae35621",
+    "manifestVersion": 2,
+    "isDomainIsolated": false,
+    "framework": "react"
+  }
+}
