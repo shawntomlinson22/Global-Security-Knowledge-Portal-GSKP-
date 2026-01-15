@@ -52,3 +52,12 @@ The SPFx web part renders directly within the SharePoint page DOM, eliminating i
 - [ ] No Fluent UI icon registration warnings.
 - [ ] Role switching works.
 - [ ] Navigation + collapsibles work in SharePoint Online modern pages.
+# SharePoint HTML Portals (Phase 1)
+
+Repository purpose: SharePoint HTML portals (Phase 1).
+
+## Files
+- .gitkeep
+
+## Notes
+- Portals currently fail in SharePoint due to iframe sandbox / allow-scripts restriction.
